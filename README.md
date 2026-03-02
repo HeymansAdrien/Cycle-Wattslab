@@ -65,3 +65,8 @@ A window will open with two subplots:
 -   `power_curve.py`: The core analysis and visualization script.
 -   `data/`: Place your training files here. Support for `.tcx` format.
 -   `LICENSE`: MIT License.
+
+## Acknowledgments
+This project implements performance profiling concepts and Morton's equation from:
+-   [Allen, H., Coggan, A., & McGregor, S. (2019). Training and Racing with a Power Meter 3rd edition. Velopress](https://books.google.be/books?id=X62SDwAAQBAJ)
+-   [Morton, R. H. (2006). The critical power and related whole-body bioenergetic models. European journal of applied physiology, 96(4), 339-354.](10.1007/s00421-005-0088-2)

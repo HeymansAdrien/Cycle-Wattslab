@@ -79,49 +79,55 @@ def load_all_tcx(pattern):
     return all_data
 
 coggan_profiles_wkg = {
-
-    "Domestic pro": {
+# estimation based on Allen, H., Coggan, A., & McGregor, S. (2019). Training and Racing with a Power Meter
+    "Diamond": {
         5:21.3,
         60:10.3,
         300:6.55,
         1200:5.5
     },
-    "Excellent": {
+    "Titanium": {
         5:19.5,
         60:9.6,
         300:5.8,
         1200:5
     },
-    "Very Good": {
+    "Platinum": {
         5:18.06,
         60:	8.97,
         300:5.33,
         1200:4.44
     },
 
-    "Good": {     # category 
-        5: 16.15,   # 5s
-        60: 8.17,  # 1min
-        300: 4.6,  # 5min
-        1200: 3.82  # FTP (60min)
+    "Gold": {
+        5: 16.15,
+        60: 8.17,
+        300: 4.6,
+        1200: 3.82
     },
-    "Moderate": {         
+    "Silver": {         
         5: 14.52,
         60: 7.48,
         300: 3.98,
         1200: 3.29
     },
-    "Fair": {          
+    "Bronze": {          
         5: 12.89,
         60: 6.79,
         300: 3.36,
         1200: 2.75
     },
-    "Untrained": {     
+    "Iron": {     
         5: 11.26,
         60: 6.1,
         300: 2.74,
         1200: 2.22
+    },
+    "Wood": {     
+        5: 8.3,
+        60: 5,
+        300: 1.6,
+        1200: 1.2
     },
 }
 
